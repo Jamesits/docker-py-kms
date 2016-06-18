@@ -3,7 +3,7 @@ MAINTAINER James Swineson <jamesswineson@gmail.com>
 
 RUN apt-get update \
     && apt-get upgrade -y \
-    && apt-get install -y git python2\
+    && apt-get install -y git python2.7\
     && apt-get autoremove -y \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/* \
