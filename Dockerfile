@@ -9,7 +9,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/* \
     && rm -rf /usr/{{lib,share}/locale,share/{man,doc,info,gnome/help,cracklib,il8n},{lib,lib64}/gconv,bin/localedef,sbin/build-locale-archive}
 
-PWD /usr/local/src
+WORKDIR /usr/local/src
 RUN git clone https://github.com/dzacharo/py-kms.git --branch patch-1
 
 EXPOSE 1688
