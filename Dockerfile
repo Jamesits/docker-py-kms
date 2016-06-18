@@ -13,4 +13,4 @@ WORKDIR /usr/local/src
 RUN git clone https://github.com/dzacharo/py-kms.git --branch patch-1
 
 EXPOSE 1688
-CMD ["python2" "server.py" "0.0.0.0" "1688"]
+CMD ["/usr/bin/python2", "/usr/local/src/py-kms/server.py", "0.0.0.0", "1688"]
