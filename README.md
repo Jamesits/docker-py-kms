@@ -2,7 +2,7 @@
 Dockerfile for py-kms. This software is provided "AS IS", use at your own risk, and don't expect it to work. 
 
 ## Client Settings
-Find correct key corresponding to your software version [here](https://technet.microsoft.com/en-us/library/JJ612867.aspx), then run the following commands as Administrator.
+Find correct key corresponding to your software version [here](https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys), then run the following commands as Administrator.
 ### Windows
 Enable
 ```cmd
